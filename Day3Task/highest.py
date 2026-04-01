@@ -1,8 +1,8 @@
 #Write a program to find the student with the highest marks from a dictionary
 students = {
-    "Alice": 85,
-    "Bob": 90,
-    "Charlie": 78
+    "Ammu": 85,
+    "Nani": 90,
+    "Chintu": 78
 }
 
 highest_student = max(students, key=students.get)
