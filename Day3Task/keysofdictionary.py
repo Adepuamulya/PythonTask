@@ -1,8 +1,8 @@
 #Write a program to print all keys of a dictionary
 students = {
-    "Alice": 85,
-    "Bob": 90,
-    "Charlie": 78
+    "Ammu": 85,
+    "Nani": 90,
+    "Chintu": 78
 }
 
 for key in students.keys():
