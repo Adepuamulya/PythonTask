@@ -1,10 +1,10 @@
 #Write a program to update the value of an existing key
 students = {
-    "Alice": 85,
-    "Bob": 90,
-    "Charlie": 78
+    "Ammu": 85,
+    "Nani": 90,
+    "Chintu": 78
 }
 
-students["Bob"] = 95
+students["Nani"] = 95
 
 print("Updated dictionary:", students)
