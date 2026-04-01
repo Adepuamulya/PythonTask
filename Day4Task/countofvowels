@@ -1,4 +1,4 @@
-#Write a program to count the number of vowels in a string
+# Write a program to count the number of vowels in a string
 s = input()
 count = 0
 
