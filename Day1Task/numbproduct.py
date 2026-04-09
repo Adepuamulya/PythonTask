@@ -1,6 +1,5 @@
 #Write a program that takes two numbers and prints their product
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
-
 product = num1 * num2
 print("The product is:", product)
