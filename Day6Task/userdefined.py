@@ -45,12 +45,10 @@
 subjects = ("Math", "Science", "English")
 students = set()
 student_marks = {}
-
 def recursive_total(marks, n):
     if n == 0:
         return 0
     return marks[n-1] + recursive_total(marks, n-1)
-
 def add_student():
     try:
         name = input("Enter student name: ")
@@ -64,11 +62,9 @@ def add_student():
         print("Invalid input! Please enter numeric marks.")
     except TypeError:
         print("Marks data type error.")
-
 def display_students():
     for name in student_marks:
         print(name, ":", student_marks[name])
-
 def calculate_average():
     try:
         name = input("Enter student name to calculate average: ")
@@ -85,13 +81,11 @@ def calculate_average():
         print("Cannot divide by zero.")
     except TypeError:
         print("Marks data type error.")
-
 while True:
     print("1. Add Student")
     print("2. Display Students")
     print("3. Calculate Average")
     print("4. Exit")
-    
     choice = input("Enter choice: ")
     
     if choice == "1":
