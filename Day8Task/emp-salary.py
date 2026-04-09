@@ -10,12 +10,9 @@
 #● Finds the employee with the highest salary 
 #● Appends a new employee record to the file.
 file = open("employees.txt", "r")
-
 highest_salary = 0
 highest_employee = ""
-
 print("Employee Details:")
-
 for line in file:
     name, salary = line.split()
     salary = int(salary)
@@ -24,9 +21,7 @@ for line in file:
     if salary > highest_salary:
         highest_salary = salary
         highest_employee = name
-
 file.close()
-
 print("Employee with Highest Salary:", highest_employee, highest_salary)
 
 name = input("Enter new employee name: ")
