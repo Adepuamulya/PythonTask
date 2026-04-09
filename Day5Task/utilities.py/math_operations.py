@@ -5,6 +5,5 @@
 #Write a Python program that imports the package and uses functions from both modules.
 def add(a, b):
     return a + b
-
 def multiply(a, b):
     return a * b
