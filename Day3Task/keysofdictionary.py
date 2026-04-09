@@ -4,6 +4,5 @@ students = {
     "Nani": 90,
     "Chintu": 78
 }
-
 for key in students.keys():
     print(key)
