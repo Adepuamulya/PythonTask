@@ -7,7 +7,6 @@ def bonus_decorator(func):
         self.salary = self.salary + bonus
         func(self)
     return wrapper
-
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -17,6 +16,5 @@ class Employee:
     def display_salary(self):
         print("Employee Name:", self.name)
         print("Salary with Bonus:", self.salary)
-
 emp = Employee("Amulya", 20000)
 emp.display_salary()
