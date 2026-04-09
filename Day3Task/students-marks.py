@@ -4,5 +4,4 @@ students = {
     "Nani": 90,
     "Chintu": 78
 }
-
 print("Student marks:", students)
