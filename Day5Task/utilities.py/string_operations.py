@@ -5,6 +5,5 @@
 #Write a Python program that imports the package and uses functions from both modules.
 def to_uppercase(text):
     return text.upper()
-
 def count_characters(text):
     return len(text)
