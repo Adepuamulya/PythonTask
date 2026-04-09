@@ -4,9 +4,6 @@ students = {
     "Nani": 90,
     "Chintu": 78
 }
-
 key = "Nani"
-
 value = students[key]
-
 print("Value:", value)
