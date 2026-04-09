@@ -4,9 +4,7 @@ students = {
     "Nani": 90,
     "Chintu": 78
 }
-
 key = "Nani"
-
 if key in students:
     print("Key exists in the dictionary")
 else:
