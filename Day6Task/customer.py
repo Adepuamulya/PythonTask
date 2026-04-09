@@ -55,18 +55,15 @@ products = {"Pen": 10, "Notebook": 50, "Pencil": 5}
 categories = {"Stationery"}
 product_details = (("Pen", 10), ("Notebook", 50), ("Pencil", 5))
 cart = []
-
 def recursive_total(cart, n):
     if n == 0:
         return 0
     item = cart[n-1]
     return item[1] * products[item[0]] + recursive_total(cart, n-1)
-
 def display_products():
     print("Available Products:")
     for p in products:
         print(p, ":", products[p])
-
 def add_to_cart():
     try:
         name = input("Enter product name: ")
@@ -81,7 +78,6 @@ def add_to_cart():
         print("Product not found in store.")
     except TypeError:
         print("Cart data type error.")
-
 def view_total():
     try:
         print("Items in Cart:")
@@ -95,15 +91,12 @@ def view_total():
         print("Calculation error: division by zero.")
     except TypeError:
         print("Cart data type error.")
-
 while True:
     print("1. Display Products")
     print("2. Add Item to Cart")
     print("3. View Total Bill")
     print("4. Exit")
-
     choice = input("Enter choice: ")
-
     if choice == "1":
         display_products()
     elif choice == "2":
