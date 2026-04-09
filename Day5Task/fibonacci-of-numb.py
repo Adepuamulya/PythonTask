@@ -6,7 +6,6 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n-1) + fibonacci(n-2)
-
 num = int(input("Enter n: "))
 result = fibonacci(num)
 print("Fibonacci number is", result)
