@@ -1,3 +1,4 @@
 #Write a program to reverse a string
-s = input()
-print(s[::-1])
+text=input("Enter a string: ")
+reversed_text=text[::-1]
+print("Reversed string:",reversed_text)
