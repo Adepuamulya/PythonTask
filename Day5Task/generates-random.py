@@ -7,19 +7,14 @@
 # Logarithm of the minimum number 
 import random
 import math
-
 numbers = []
-
 for i in range(20):
     num = random.randint(1, 200)
     numbers.append(num)
-
 max_value = max(numbers)
 min_value = min(numbers)
-
 sqrt_max = math.sqrt(max_value)
 log_min = math.log(min_value)
-
 print("Random Numbers:", numbers)
 print("Maximum value:", max_value)
 print("Minimum value:", min_value)
