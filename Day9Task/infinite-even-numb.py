@@ -6,10 +6,7 @@ def even_generator():
     while True:
         yield num
         num += 2
-
 gen = even_generator()
-
 n = int(input("Enter how many even numbers to print: "))
-
 for i in range(n):
     print(next(gen))
