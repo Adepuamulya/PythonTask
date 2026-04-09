@@ -4,6 +4,5 @@ def check(num):
         print("Even")
     else:
         print("Odd")
-
 n = int(input())
 check(n)
