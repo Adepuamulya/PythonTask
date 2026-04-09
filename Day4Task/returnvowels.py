@@ -5,6 +5,5 @@ def count_vowels(s):
         if i in "aeiouAEIOU":
             count += 1
     return count
-
 text = input()
 print(count_vowels(text))
