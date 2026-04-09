@@ -4,7 +4,5 @@ students = {
     "Nani": 90,
     "Chintu": 78
 }
-
 students["Nani"] = 95
-
 print("Updated dictionary:", students)
