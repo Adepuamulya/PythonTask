@@ -1,0 +1,3 @@
+{'Ravi': 65, 'Sita': 45, 'Aman': 78, 'Neha': 50}
+{'Ravi': 65, 'Aman': 78}
+Average: 59
