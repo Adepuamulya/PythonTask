@@ -1,0 +1,28 @@
+body{
+    background-color: #f0f8ff;
+    font-family: Arial;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    color: darkblue;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to Flask</h1>
+
+        <p>Click below to open another page.</p>
+
+        <a href="/second">
+            <button>Open</button>
+        </a>
+
+    </div>
+
+</body>
+</html>
