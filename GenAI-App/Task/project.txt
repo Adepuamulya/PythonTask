@@ -1,0 +1,44 @@
+Library Management System
+
+Technology:
+
+* Python
+* Flask
+* MySQL
+* HTML
+* CSS
+* Bootstrap
+
+Features:
+
+* User Registration
+* User Login
+* Book Management
+* Add New Books
+* Edit Book Details
+* Delete Books
+* Search Books
+* Issue Books
+* Return Books
+* Book Availability Status
+* Borrowing History
+* Admin Dashboard
+
+Database Tables:
+
+* users
+* books
+* issued_books
+
+Library Flow:
+
+1. User logs in
+2. Searches for a book
+3. Views book details and availability
+4. Issues a book
+5. System records the transaction
+6. User returns the book
+7. System updates availability status
+
+Project Purpose:
+The Library Management System is designed to automate library operations by managing books, users, and borrowing activities. It allows librarians to efficiently track book inventory, issue and return books, maintain records, and provide users with an easy way to search and access library resources.

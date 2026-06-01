@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #312e81);
+    color:white;
+    font-family:Segoe UI, sans-serif;
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+    color:#f8fafc;
+}
+
+#chat-box{
+    width:80%;
+    height:65vh;
+    margin:20px auto;
+    padding:20px;
+    overflow-y:auto;
+    background:#111827;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.35);
+}
+
+.user span{
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+    color:white;
+    padding:12px 16px;
+    border-radius:15px 15px 0 15px;
+    display:inline-block;
+}
+
+.bot span{
+    background:#374151;
+    color:#f8fafc;
+    padding:12px 16px;
+    border-radius:15px 15px 15px 0;
+    display:inline-block;
+}
+
+input{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    background:#1f2937;
+    color:white;
+}
+
+button{
+    padding:15px 25px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#06b6d4,#3b82f6);
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    opacity:0.95;
+}
